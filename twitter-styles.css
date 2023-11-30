@@ -1,0 +1,90 @@
+body, html {
+    /* height: 100%; */
+    background: #14171A;
+    margin: 0;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .column {
+    max-width: 550px;
+  }
+
+  .inputs {
+    background: lightslategray;
+  }
+
+  .column-card {
+    /* width: 512px; */
+    /* margin: 20px auto; */
+    padding: 24px;
+  }
+
+  .preview {
+    color: white;
+    text-align: center;
+  }
+  
+  .twitter-post {
+    border: 1px solid #E1E8ED;
+    /* border-radius: 15px; */
+    
+    /* width: 512px; */
+    /* margin: 24px; */
+    padding: 12px;
+  }
+  
+  .twitter-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    background: greenyellow;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name {
+    /* font-weight: bold; */
+  }
+  
+  .handle, a {
+    color: #657786;
+  }
+  
+  .twitter-content {
+    padding: 10px 0;
+  }
+  
+  #typewriter {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    color: white; /* Twitter text color */
+
+  }
+  
+  .twitter-footer {
+    color: #657786;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  .twitter-card-dimensions {
+    width: 300px;
+    height: 240px;
+    border-radius: 15px;
+    padding: 16px;
+  }
+  
+  /* Your existing cursor and animation styles */
+  

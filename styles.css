@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+  }
+  
+  #typewriter {
+    /* border-right: 2px solid white; */
+    font-family: 'Press Start 2P';
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: white;
+    /* white-space: nowrap; */
+    width: 512px;
+    overflow: hidden;
+  }
+  
+  #cursor {
+    display: inline-block;
+    margin-left: 5px;
+    animation: blink 0.7s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
