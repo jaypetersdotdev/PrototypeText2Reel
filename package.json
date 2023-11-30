@@ -1,0 +1,14 @@
+{
+  "name": "prototypetext2reel",
+  "version": "1.0.0",
+  "description": "turn custom text into a simple animated typewriter gif/video",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
